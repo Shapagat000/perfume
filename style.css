@@ -1,0 +1,55 @@
+body{
+    background-color:hsl(30, 38%, 92%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    width: 650px;
+    height: 430px;
+    margin-top: 150px;
+    margin-left: 50px;
+    border-radius: 13px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+
+}
+img{
+    width: 300px;
+    height: 430px;
+    border-radius: 13px 0 0 13px ;
+}
+h3{
+    color:hsl(228, 12%, 48%);
+    
+}
+.wrong{
+    color:hsl(228, 12%, 48%) ;
+    text-decoration: line-through;
+
+}
+.text{
+    color: hsl(228, 12%, 48%);
+}
+.price{
+    color: hsl(158, 36%, 37%) ;
+}
+button{
+    background-color:hsl(158, 36%, 37%) ;
+    width:250px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 30px;
+    color:white;
+    font-size: 20px;
+}
+.trolley{
+    position: relative;
+    bottom: 33px;
+    width:25px;
+    height: 25px;
+    margin-left: 65px;
+
+}
